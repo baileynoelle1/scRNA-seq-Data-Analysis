@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains scripts for the analysis of human glioblastoma single-cell transcriptomes. The purpose of this workflow is to identify transcriptional programs associated with mTOR signaling, interferon response, and mesenchymal versus proneural cellular states. 
+This repository contains scripts for the analysis of human glioblastoma single-cell transcriptomes. The purpose of this computational workflow is to identify transcriptional programs associated with mTOR signaling, interferon response, and mesenchymal versus proneural cellular states. This workflow covers raw data quality control, data integration, CNV inference, transcriptional regulatory mechanisms, and differential expression analyses. 
 
 ## Datasets
 
@@ -16,3 +16,10 @@ These datasets each contain data from over 100,000 cells of human glioblastoma t
 ## Workflow Summary
 
 ### QC&Integration.ipynb
+
+* Generate standard Scanpy QC plots for scRNA-seq data before and after filtering
+* Run Scanpy preprocessing and integration
+* Identify highly variable genes (HVGs)
+* Integrate the two processed datasets using Harmony
+
+###
