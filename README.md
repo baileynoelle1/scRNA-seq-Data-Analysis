@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains scripts for the analysis of glioblastoma single-cell transcriptomes. The purpose of this workflow is to identify transcriptional programs associated with mTOR signaling, interferon response, and mesenchymal versus proneural cellular states. 
+This repository contains scripts for the analysis of human glioblastoma single-cell transcriptomes. The purpose of this workflow is to identify transcriptional programs associated with mTOR signaling, interferon response, and mesenchymal versus proneural cellular states. 
 
 ## Datasets
 
