@@ -6,7 +6,7 @@ This repository contains scripts for the analysis of human glioblastoma single-c
 
 ## Datasets
 
-This workflow uses two publicly available human glioblastoma scRNA-seq datasets from 10x Genomics v3 chemistry:
+This workflow utilizes two publicly available human glioblastoma scRNA-seq datasets from 10x Genomics v3 chemistry:
 
 * SL040
 * SL057
