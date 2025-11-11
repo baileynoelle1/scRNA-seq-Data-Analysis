@@ -6,20 +6,20 @@ This repository contains scripts for the analysis of human glioblastoma single-c
 
 ## Datasets
 
-This workflow utilizes two publicly available human glioblastoma scRNA-seq datasets from 10x Genomics v3 chemistry:
+This workflow utilizes a publicly available human glioblastoma scRNA-seq dataset from 10x Genomics v3 chemistry:
 
 * SL040
-* SL057
 
-These datasets each contain data from over 100,000 cells of human glioblastoma tumor core tissue and the matching macroscopically normal cortex tissue. These datasets can be viewed and downloaded from this link: https://cellxgene.cziscience.com/datasets
+This dataset contains data from over 130,000 cells of human glioblastoma tumor core tissue and the matching macroscopically normal cortex tissue. This datasets can be viewed and downloaded from this link: https://cellxgene.cziscience.com/datasets
 
 ## Workflow Summary
 
 ### QC&Integration.ipynb
 
 * Generate standard Scanpy QC plots for scRNA-seq data before and after filtering
-* Run Scanpy preprocessing and integration
-* Identify highly variable genes (HVGs)
-* Integrate the two processed datasets using Harmony
+* Run Scanpy preprocessing 
+* Identify highly variable genes (HVGs) and perform PCA
+* Create neighborhood graph, UMAP, and clusters
+
 
 ###
