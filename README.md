@@ -14,7 +14,7 @@ This dataset contains data from over 130,000 cells of human glioblastoma tumor c
 
 ## Workflow Summary
 
-### QC&Integration.ipynb
+### Script1-QCNormalization.ipynb
 
 * Generate standard Scanpy QC plots for scRNA-seq data before and after filtering
 * Run Scanpy preprocessing 
