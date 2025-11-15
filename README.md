@@ -10,7 +10,7 @@ This workflow utilizes a publicly available human glioblastoma scRNA-seq dataset
 
 * SL040
 
-This dataset contains data from over 130,000 cells of human glioblastoma tumor core tissue and the matching macroscopically normal cortex tissue. This datasets can be viewed and downloaded from this link: https://cellxgene.cziscience.com/datasets
+This dataset contains data from over 130,000 cells of human glioblastoma tumor core tissue and the matching macroscopically normal cortex tissue. This dataset can be viewed and downloaded from this link: https://cellxgene.cziscience.com/datasets
 
 ## Workflow Summary
 
